@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome To RouteTrackerActivity!</string>
+    <string name="app_name">RouteTracker</string>
+    <string name="app_title">Route Tracker</string>
+    <string name="btn_title_start">Start</string>
+
+</resources>

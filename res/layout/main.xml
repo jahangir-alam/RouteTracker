@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="150dp"
+        android:text="Fetching GPS Information..."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:width="300dp" />
+
+    <TextView
+        android:id="@+id/txtSatelliteInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satelite Information"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:width="250dp" android:height="100dp"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_title_start"
+        android:width="100dp" />
+
+</LinearLayout>
